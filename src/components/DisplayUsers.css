@@ -1,0 +1,88 @@
+/* Container for the users list */
+.users-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Styling for the grid of users */
+  .users-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Each user card styling */
+  .user-card {
+    background-color: #fcd49f;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  /* Add hover effect on the card */
+  .user-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Avatar image styling */
+  .user-avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  /* Name and email text styling */
+  .user-card h2 {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .user-card p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  /* Basic styling for the delete button */
+.btn-delete {
+    background-color: #ff4c4c; /* Red color for the delete action */
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex-end;
+    align-items: center;
+    justify-content: right;
+    
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Add hover effect to make the button more interactive */
+  .btn-delete:hover {
+    background-color: #e33d3d; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+  }
+  
+  /* Styling for the delete icon */
+  .delete-icon {
+    font-size: 20px; /* Adjust size of the icon */
+    margin-left: 0px; /* Add some space between the icon and button text (if any) */
+    transition: transform 0.2s ease;
+  }
+  
+  /* Add a hover effect to the icon */
+  .btn-delete:hover .delete-icon {
+    transform: rotate(-15deg); /* Slight rotation on hover */
+  }
+  
+  /* Optional: Focus effect for keyboard accessibility */
+  .btn-delete:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5); /* Red focus shadow */
+  }
+  

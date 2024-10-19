@@ -1,0 +1,27 @@
+/* Styling DeleteAllUser div as a button */
+.DeleteAlluser {
+    display: inline-block;
+    background-color: #e0b4af;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .DeleteAlluser:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+  }
+  
+  /* Active effect (when clicked) */
+  .DeleteAlluser:active {
+    background-color: #a93226;
+    transform: scale(0.98);
+  }
+  

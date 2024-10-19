@@ -1,8 +1,14 @@
-# React + Vite
+# Redux Toolkit Introduction
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What is Redux Toolkit?
 
-Currently, two official plugins are available:
+**Redux Toolkit** 
+Is the official, recommended toolset for managing state in Redux applications. It simplifies the process of setting up and working with Redux by reducing the boilerplate code typically associated with Redux. With Redux Toolkit, you can efficiently manage global state in your React applications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Screenshots
+
+Here are some images of the project:
+
+![main Page](./public/images/main-page.png)
+![add Page](./public/images/add-users.png)
+![delete Page](./public/images/deleteAll-user.png)
